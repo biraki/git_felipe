@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form>
+        <label for="name">Nome</label>
+        <input type="text" placeholder="Digite seu nome aqui..." required id="name" name="name">
+<br>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Digite seu email aqui..." required id="email" name="email">
+<br>
+        
+
+        <label for="descricao">O que te motivou participar do evento?</label>
+        <br>
+        <textarea name="descricao" id="descricao" placeholder="Descreva aqui..." cols="30" rows="8"></textarea>
+        <br>
+        <label for="">Selecione seu módulo</label>
+        <select type="" placeholder="" required id="" name="">
+            <option value="">Escolher módulo</option>
+            <option value="m18">M18</option>
+            <option value="m17">M17</option>
+        </select>
+
+        <label for="">Cadastre uma senha</label>
+        <input type="" placeholder="Digite sua senha aqui..." required id="" name="">
+
+        <label for="">Confirme a senha</label>
+        <input type="password" placeholder="Repita a senha..." required id="" name="">
+        
+        <p>Deseja receber novidades em seu email?</p>
+        <label for="yes">Yes</label>
+        <input type="radio" required id="yes" name="newsletter">
+        <label for="no">No</label>
+        <input type="radio" required id="no" name="no-newsletter">
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
